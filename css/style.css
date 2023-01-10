@@ -1,3 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Cinzel";
+}
+
+.logoMenuPanier {
+  display: flex;
+}
+.logoMenuPanier .logo {
+  width: 170px;
+}
+.logoMenuPanier .menu {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  padding-left: 90px;
+  color: black;
+}
+.logoMenuPanier .menu :hover {
+  color: black;
+}
+.logoMenuPanier .menu .menu1 {
+  border-right: solid 1px;
+  padding-right: 35px;
+}
+.logoMenuPanier .menu .menu2 {
+  border-right: solid 1px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.logoMenuPanier .menu .menu3 {
+  border-right: solid 1px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.logoMenuPanier .menu .menu4 {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.logoMenuPanier .panier {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
 body {
   background-image: url("../images/fondhomenails.png");
   background-repeat: no-repeat;
