@@ -3,6 +3,81 @@ body {
   font-family: "Cinzel";
 }
 
+.btn_month_set {
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px 30px 10px 30px;
+}
+.btn_month_set a {
+  color: black;
+  text-decoration: none;
+  font-family: "Cinzel";
+  font-size: 17px;
+}
+
+.btn_about_me {
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px 30px 10px 30px;
+}
+.btn_about_me a {
+  color: black;
+  text-decoration: none;
+  font-family: "Cinzel";
+  font-size: 17px;
+}
+
+.btn_newsletter {
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+  width: 200px;
+  margin: 25px 0px 0px 70px;
+}
+.btn_newsletter a {
+  color: black;
+  text-decoration: none;
+  font-family: "Cinzel";
+  font-size: 17px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+footer img {
+  width: 250px;
+  padding: 30px 350px 0px 0px;
+}
+footer .required_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 350px;
+}
+footer .required_link a {
+  color: black;
+  text-decoration: none;
+}
+footer .required_link a:hover {
+  color: rgba(0, 0, 0, 0.6941176471);
+}
+footer .newsletter {
+  display: flex;
+  flex-direction: column;
+}
+footer .newsletter input {
+  font-family: "Cinzel";
+  text-align: center;
+  font-size: 17px;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid black;
+  background-color: white;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -34,16 +109,78 @@ body {
 }
 
 .month_set {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
+  margin: 50px 550px 0px 550px;
+  padding: 25px 0px 25px 20px;
 }
 .month_set .month_set_photo {
   width: 300px;
   height: 350px;
+  object-fit: cover;
 }
-.month_set .set_description {
+.month_set .month_set_contenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.month_set .month_set_contenu .set_name {
+  font-size: 25px;
+}
+.month_set .month_set_contenu .set_price {
+  font-size: 18px;
+}
+.month_set .month_set_contenu .set_description {
   white-space: normal;
+  padding: 0px 70px 0px 100px;
+  text-align: center;
+}
+
+.shop_categories {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 50px 0px 50px;
+}
+.shop_categories img {
+  width: 250px;
+}
+
+.about_me {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin: 0px 550px 0px 550px;
+  padding: 25px 0px 25px 20px;
+}
+.about_me .about_me_photo {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+.about_me .about_me_contenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.about_me .about_me_contenu .about_me_title {
+  font-size: 25px;
+}
+.about_me .about_me_contenu .about_me_description {
+  white-space: normal;
+  padding: 0px 70px 0px 100px;
+  text-align: center;
+}
+
+.social_networks {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 600px 30px 600px;
+}
+.social_networks img {
+  width: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

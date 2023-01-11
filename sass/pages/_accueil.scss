@@ -4,15 +4,73 @@ body{
     background-size: cover;
 }
 .month_set{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
+    margin: 50px 550px 0px 550px;
+    padding: 25px 0px 25px 20px;
     .month_set_photo{
         width: 300px;
         height: 350px;
+        object-fit: cover;
     }
-    .set_description{
-        white-space: normal;
+    .month_set_contenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .set_name{
+            font-size: 25px;
+        }
+        .set_price{
+            font-size: 18px;
+        }
+        .set_description{
+            white-space: normal;
+            padding: 0px 70px 0px 100px;
+            text-align: center;
+        }
     }
 }
-
+.shop_categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px 0px 50px;
+    img{
+        width: 250px;
+    }
+}
+.about_me{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin: 0px 550px 0px 550px;
+    padding: 25px 0px 25px 20px;
+    .about_me_photo{
+        width: 300px;
+        height: 350px;
+        object-fit: cover;
+    }
+    .about_me_contenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .about_me_title{
+            font-size: 25px;
+        }
+        .about_me_description{
+            white-space: normal;
+            padding: 0px 70px 0px 100px;
+            text-align: center;
+        }
+    }
+}
+.social_networks{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 600px 30px 600px;
+    img{
+        width: 50px;
+    }
+}
