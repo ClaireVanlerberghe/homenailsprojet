@@ -1,6 +1,18 @@
 body{
-    background-image: url("../images/fondhomenails.png");
+    background-image: url("../../images/fondhomenails.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+.month_set{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    .month_set_photo{
+        width: 300px;
+        height: 350px;
+    }
+    .set_description{
+        white-space: normal;
+    }
 }
 
