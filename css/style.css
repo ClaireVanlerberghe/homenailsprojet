@@ -217,4 +217,63 @@ body {
   font-size: 25px;
 }
 
+.about_me_container .about_me_title {
+  font-size: 25px;
+  text-align: center;
+  padding: 2% 0% 2% 0%;
+}
+.about_me_container .about_me_photo_texte {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0% 15% 0% 15%;
+}
+.about_me_container .about_me_photo_texte img {
+  width: 250px;
+  object-fit: cover;
+}
+.about_me_container .about_me_photo_texte p {
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.homenails_container .homenails_title {
+  font-size: 25px;
+  text-align: center;
+  padding: 2% 0% 2% 0%;
+}
+.homenails_container .homenails_photo_texte {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0% 15% 0% 15%;
+}
+.homenails_container .homenails_photo_texte img {
+  width: 250px;
+  object-fit: cover;
+}
+.homenails_container .homenails_photo_texte p {
+  font-size: 20px;
+  padding-right: 50px;
+}
+.homenails_container .homenails_title2 {
+  font-size: 25px;
+  text-align: center;
+  padding: 2% 0% 2% 0%;
+}
+.homenails_container .homenails_photo_texte2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0% 15% 5% 15%;
+}
+.homenails_container .homenails_photo_texte2 img {
+  width: 250px;
+  object-fit: cover;
+}
+.homenails_container .homenails_photo_texte2 p {
+  font-size: 20px;
+  padding-left: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
